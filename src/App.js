@@ -13,35 +13,7 @@ function App(props) {
 
 const [data, setdata] = useState([])
 
-// const [showCity, setShowCity] = useState(true)
-// const [showRegion, setShowRegion] = useState(false)
-// const [showCategory, setShowCategory] = useState(false)
-// const [showQuantity, setShowQuantity] = useState(false)
 
-// const handleShowCity = ()=>{
-//   setShowCity(true)
-//   setShowRegion(false)
-//   setShowCategory(false)
-//   setShowQuantity(false)
-// }
-// const handleShowRegion = ()=>{
-//   setShowCity(false)
-//   setShowRegion(true)
-//   setShowCategory(false)
-//   setShowQuantity(false)
-// }
-// const handleShowCat = ()=>{
-//   setShowCity(false)
-//   setShowRegion(false)
-//   setShowCategory(true)
-//   setShowQuantity(false)
-// }
-// const handleShowQty = ()=>{
-//   setShowCity(false)
-//   setShowRegion(false)
-//   setShowCategory(false)
-//   setShowQuantity(true)
-// }
 
   useEffect(()=>{
     
